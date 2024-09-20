@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "461939400326",
+    "project_id": "pepper-inferno-x",
+    "storage_bucket": "pepper-inferno-x.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461939400326:android:ce361acac7e48e85453b07",
+        "android_client_info": {
+          "package_name": "www.pepperinferno.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVsEDRBypB85ayKteA6oEKtk7VKAywTH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

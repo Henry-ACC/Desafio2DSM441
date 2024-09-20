@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pepper Inferno X</string>
+
+    <string name="logintxt">Log In</string>
+    <string name="signintxt">Create Account</string>
+    <string name="emailtxt">Email</string>
+    <string name="passtxt">Password</string>
+
+    <string name="btnLogtxt">Sign In</string>
+    <string name="btnRegtxt">Register</string>
+
+    <string name="dntAccount1">Don\'t Have an Account?</string>
+    <string name="dntAccount2">Sign Up</string>
+
+    <string name="hveAccount1">Already Have an Account?</string>
+    <string name="hveAccount2">Log In</string>
+
+    <string name="welcome">Welcome to Pepper Inferno!</string>
+
+    <string name="btnLogout">Log Out</string>
+</resources>
