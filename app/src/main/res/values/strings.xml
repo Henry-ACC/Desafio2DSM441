@@ -18,4 +18,8 @@
     <string name="welcome">Welcome to Pepper Inferno!</string>
 
     <string name="btnLogout">Log Out</string>
+
+    <string name="nv1">Foods</string>
+    <string name="nv2">Drinks</string>
+    <string name="nv3">Options</string>
 </resources>

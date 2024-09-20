@@ -5,16 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WelcomeActivity">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="247dp" />
+    tools:context=".DrinksActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -30,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="70dp"
             android:layout_weight="1"
-            android:backgroundTint="#DB1C67"
+            android:backgroundTint="#C2185B"
             android:fontFamily="@font/almendra_sc"
             android:text="@string/nv1"
             android:textColor="#FFFFFF"
@@ -43,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="70dp"
             android:layout_weight="1"
-            android:backgroundTint="#C2185B"
+            android:backgroundTint="#DB1C67"
             android:fontFamily="@font/almendra_sc"
             android:text="@string/nv2"
             android:textColor="#FFFFFF"
@@ -81,7 +72,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Taco Peppers"
+            android:text="Cold Tea"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -90,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/abel"
-            android:text="Price: $3.99"
+            android:text="Price: 2.50"
             android:textAlignment="viewStart"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -106,7 +97,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BurriPepper"
+            android:text="Soda"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -115,7 +106,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/abel"
-            android:text="Price: 5.99"
+            android:text="Price: 1.99"
             android:textAlignment="viewStart"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -131,7 +122,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tortu Pepper"
+            android:text="Water"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -140,7 +131,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/abel"
-            android:text="Price: 6.99"
+            android:text="Price: 1.50"
             android:textAlignment="viewStart"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -152,105 +143,5 @@
             android:layout_margin="15dp"
             android:background="?android:attr/listDivider" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Gringa Pepper"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/abel"
-            android:text="Price: 3.99"
-            android:textAlignment="viewStart"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <View
-            android:id="@+id/view2"
-            android:layout_width="match_parent"
-            android:layout_height="4dp"
-            android:layout_margin="15dp"
-            android:background="?android:attr/listDivider" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Gringa Arab Pepper"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/abel"
-            android:text="Price: 4.99"
-            android:textAlignment="viewStart"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <View
-            android:id="@+id/view2"
-            android:layout_width="match_parent"
-            android:layout_height="4dp"
-            android:layout_margin="15dp"
-            android:background="?android:attr/listDivider" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="The Costra Pepper"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/abel"
-            android:text="Price: 5.99"
-            android:textAlignment="viewStart"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <View
-            android:id="@+id/view2"
-            android:layout_width="match_parent"
-            android:layout_height="4dp"
-            android:layout_margin="15dp"
-            android:background="?android:attr/listDivider" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="The Pepper Soap"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/abel"
-            android:text="Price: 6.99"
-            android:textAlignment="viewStart"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <View
-            android:id="@+id/view2"
-            android:layout_width="match_parent"
-            android:layout_height="4dp"
-            android:layout_margin="15dp"
-            android:background="?android:attr/listDivider" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
